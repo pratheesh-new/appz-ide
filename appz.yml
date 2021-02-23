@@ -26,4 +26,6 @@ volumes:
 
 properties:
   IDE_PASSWORD_HASH: "appz:$2y$10$ASivl/Tdids4M7HFnST6/.vTNSYdCMt069RFNHA4D6qEYLRq5ux5u"
+  MYSQL_PASSWORD_KEY: 
+    vault: MYSQL_PASSWORD_KEY
   revision : 15
